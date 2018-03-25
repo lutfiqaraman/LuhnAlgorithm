@@ -10,6 +10,13 @@ namespace LuhnAlgorithm
     {
         static void Main(string[] args)
         {
+            //Dummy credit card number : 3379 5135 6110 8795
+            string CCN  = "3379513561108795";
+
+            Luhn number = new Luhn();
+            number.CheckNumber(CCN);
+
+            Console.ReadKey();
         }
     }
 }
